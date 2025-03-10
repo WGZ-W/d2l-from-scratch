@@ -57,7 +57,7 @@ def set_figsize(figsize=(3.5, 2.5)):
     """Set the figure size for matplotlib.
 
     Defined in :numref:`sec_calculus`"""
-    # use_svg_display()
+    use_svg_display()
     d2l.plt.rcParams['figure.figsize'] = figsize
 
 def set_axes(axes, xlabel, ylabel, xlim, ylim, xscale, yscale, legend):
